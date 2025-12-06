@@ -1,0 +1,26 @@
+=== FINALE EVALUATION ERGEBNISSE ===
+eval_loss: 0.0609
+eval_accuracy: 0.9811
+eval_f1: 0.9822
+eval_precision: 0.9853
+eval_recall: 0.9811
+eval_runtime: 326.0278
+eval_samples_per_second: 1451.0570
+eval_steps_per_second: 90.6920
+epoch: 4.0000
+
+=== TRAINING KONFIGURATION ===
+MODEL_NAME: huawei-noah/TinyBERT_General_4L_312D
+Train_DATA_CSV_PATH: bert_train_sequences_v4_no_sep.csv
+Train_LABELS_CSV_PATH: y_train_resampled_attackCategoryEncoded.csv
+Eval_LABELS_CSV_PATH: y_test_Attack_Category_Encoded.csv
+Eval_DATA_CSV_PATH: bert_test_sequences_v4_no_sep.csv
+LABEL_COLUMN_TRAIN: attackCategoryEncoded
+LABEL_COLUMN_TEST: Attack_Category_Encoded
+OUTPUT_DIR: ./tinybert_finetuned_v7_GAP_no_sep
+MAX_LENGTH: 192
+BATCH_SIZE: 16
+LEARNING_RATE: 4.998985438779802e-05
+NUM_EPOCHS: 4
+TEST_SIZE: 0.2
+RANDOM_STATE: 42
