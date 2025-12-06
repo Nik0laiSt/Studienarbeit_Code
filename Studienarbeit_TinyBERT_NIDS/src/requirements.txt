@@ -1,0 +1,10 @@
+transformers 
+torch 
+torchvision 
+torchaudio
+pandas 
+scikit-learn 
+matplotlib 
+seaborn 
+requests
+optuna
